@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="title">
+        <h1>The BlackJack!!</h1> 
+        </div>
+        <h1 id="show-winner">Let's Play</h1> 
+     <div class="flex-row-1">
+        <div class="your-container">
+            <div class="player-total"><h2>You: <span id="your-result">0</span></h2></div>
+          </div>
+          <div class="dealer-container">
+            <div class="player-total"><h2>Dealer: <span id="dealer-result">0</span></h2></div>
+          </div>
+     </div>
+
+      <div class="flex-row-2">
+       <div class="btn-container">
+        <button class="blue" id="blackjack-hit-btn">Hit</button>
+        <button class="yellow" id="blackjack-stand-btn">Stand</button>
+        <button class="red" id="blackjack-deal-btn">Deal</button>
+       </div>
+      </div>
+    </div>
+    <div class="flex-row-3">
+        <table>
+            <tr>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+            </tr>
+            <tr>
+                <td><span id="wins">0</span> </td>
+                <td><span id="loss">0</span> </td>
+                <td><span id="draws">0</span> </td>     
+            </tr>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
