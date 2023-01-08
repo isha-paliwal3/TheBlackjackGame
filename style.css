@@ -1,11 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    color: white;
+    /* overflow: hidden ; */
+}
+
+.game-container{
     background-image: url("./images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-    /* overflow: hidden ; */
 }
 
 .main{
@@ -15,7 +18,12 @@ body{
 }
 
 .title{
-    font-size: 2rem;
+    font-size: 2rem; 
+}
+
+.title h1{
+    margin: 0;
+    padding-top: 0.67em;
 }
 .flex-row-1, .flex-row-2, .flex-row-3, .btn-container{
     display: flex;
@@ -98,3 +106,24 @@ table, th, td{
     text-align: center;
 }
 
+.rules{
+    text-align: end;
+    padding: 2rem;
+}
+
+.rules a{
+    color: #096A2E;
+    text-decoration: none;
+    text-align: end;
+    font-size: 1.3rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+}
