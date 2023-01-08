@@ -1,7 +1,7 @@
 # The BlackJack Game
-
+Play Now : https://the-blackjack-game.netlify.app/
 ## Summary
-It is a slight cariation of the classic card game The Blackjack. I made this game as a Front-End Web Developer project .
+It is a slight cariation of the classic card game The Blackjack. I made this game as a Front-End Web Development project .
 
 ## Installation
 To run this application, download the GitHub zip file or clone the repository. Then open a browser window and within it open the index.html file in the directory of your application.
